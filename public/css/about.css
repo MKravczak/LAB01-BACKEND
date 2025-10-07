@@ -1,10 +1,10 @@
 .about-card {
     max-width: 720px;
     margin: 2rem auto;
-    padding: 1.5rem;
-    border-radius: 8px;
-    background: #ffffff;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    padding: 0;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
 }
 
 .about-list {
@@ -14,8 +14,8 @@
 }
 
 .about-list li {
-    padding: 0.5rem 0;
-    border-bottom: 1px solid #eee;
+    padding: 0.25rem 0;
+    border-bottom: none;
 }
 
 .about-list li:last-child {
